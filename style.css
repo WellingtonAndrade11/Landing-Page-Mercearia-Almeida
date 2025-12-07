@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5EAD7;
+    margin: 0;
+    padding: 0;
+    border: 10px solid #5FA474;
+    border-top: 64px solid #5FA474;
+    background-image: url('/images/Imagem-de-Fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.top-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    gap: 4px;
+    box-sizing: border-box;
+}
+
+.top-icon {
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
+
+.top-title {
+    margin-top: 10px !important;
+    display: flex;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+
+
+.history {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#nossa-historia p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+}
+
+.titulo-wrapper {
+    margin-right: auto;
+}
+
+.title {
+    font-style: italic;
+    font-size: 26px;
+
+}
+
+.icon-big {
+    font-size: 30px;
+}
+
+.shadow-text {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.top-title {
+    color: #A02434;
+    margin: 0;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #E1A949 !important;
+    font-size: 14px;
+}
+
+.section-text-bg {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+.info-item i {
+    font-size: 40px;
+    color: #A02434;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    color: #b30000;
+}
+
+.comments {
+    width: 600px;
+    height: 600px;
+}
+
+.icone-bank img {
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+
+
+.section-title {
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}
